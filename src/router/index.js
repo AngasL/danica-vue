@@ -6,5 +6,6 @@ import routes from './routes'
 
 
 export default new Router({
-  routes
+  model: 'history',
+  routes: routes
 })
